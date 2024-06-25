@@ -4,112 +4,11 @@
     box-sizing: border-box;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
-    padding:10px;
-}
-
-nav {
-    background-color: rgb(255, 220, 168);
-}
-
 body{
     background-color: rgb(252, 234, 213);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.menu  {
-    display: flex;
-    list-style: none;   
-}
-
-.menu a.active {
-    color: rgb(238, 127, 0);
-}
-
-
-.menu li {
-    margin-left: 30px;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: black;
-}
-
-.banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner-info img{
-    width: 250px;
-    
-}
-
-.banner-info {
-    text-align: center;
-    margin: 30px;
-}
-.banner-info h1 {
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-
-.skills h1{
-    text-align: center;
-    margin-top: 25px;  
-
-}
-.skill-box{
-    display: grid;
-    grid-template-rows: 1fr 1fr;    
-    justify-content: center;
-    border: 2px solid black;
-    text-align: center;
-    margin-block: 30px;    
-   
-}
-
-h1{
-    text-align: center;
-}
-
-.contact h1{
-    margin: 40px;
-}
-.contact li{    
-    list-style: none;
-    display: grid;
-    grid-template-columns:1fr 10fr ;
-    margin-block: 40px;
-}
-
-.contact img{
-    width: 50px;
-}
-
-.Basketb {
-    text-align: center;
-    margin: 5px;
-
-}
-
-.Basketb h1,p{
-    margin: 20px;
-
-}
-
-.Basketb img{
-    width: 450px;    
-}
-
-.pgm {
-    text-align: center;
-}
-
-.pgm img{
-    width: 450px;
+.navbar{
+    padding: 15px;
 }
